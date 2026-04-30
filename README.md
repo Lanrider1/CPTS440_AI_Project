@@ -208,5 +208,3 @@ Instead of predicting all cells at once, the model:
 * **Iter Cell Accuracy** → Accuracy after iterative filling
 * **Iter Blank Accuracy** → Accuracy on blanks after iterative process
 * **Iter Board Accuracy** → % of boards fully solved
-
-```
