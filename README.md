@@ -19,7 +19,7 @@ The model:
 
 ## Environment
 
-This project was developed and executed on the **Kamiak High Performance Computing (HPC) cluster**
+This project was developed and executed on the <u>Kamiak High Performance Computing (HPC) cluster</u>
 at **Washington State University (Pullman)**.
 
 If you are running this project on Kamiak, refer to the official documentation:
