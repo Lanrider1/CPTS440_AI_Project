@@ -1,29 +1,35 @@
 #!/bin/bash
-#SBATCH --partition=kamiak
-#SBATCH --job-name=sudoku_scale
-#SBATCH --output=%x_%j.out
-#SBATCH --error=%x_%j.err
-#SBATCH --time=08:00:00
-#SBATCH --nodes=1
-#SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=4
-#SBATCH --mem=32G
-#SBATCH --gres=gpu:tesla:1
 
-cd ~/CPTS440
+# SLURM JOB CONFIGURATION
 
-module load anaconda3
-source activate sudoku
+#SBATCH --partition=kamiak            # Partition (queue) to run the job on
+#SBATCH --job-name=sudoku_scale       # Name of the job (used in output filenames)
+#SBATCH --output=%x_%j.out            # Standard output file (%x=job name, %j=job ID)
+#SBATCH --error=%x_%j.err             # Standard error file
+#SBATCH --time=08:00:00               # Maximum runtime (HH:MM:SS)
+#SBATCH --nodes=1                     # Number of nodes requested
+#SBATCH --ntasks-per-node=1           # Number of tasks (processes) per node
+#SBATCH --cpus-per-task=4             # Number of CPU cores allocated per task
+#SBATCH --mem=32G                     # Amount of RAM requested
+#SBATCH --gres=gpu:tesla:1            # Request 1 Tesla GPU
 
-srun python3 -u train_sudoku.py \
-    --csv sudoku.csv \
-    --nrows 2000000 \
-    --epochs 20 \
-    --lr 0.0005 \
-    --batch_size 128 \
-    --use_masked_loss \
-    --resume \
-    --save_path sudoku_scale_2M.pt \
-    --constraint_weight 0.0 \
-    --iter_confidence 0.95 \
-    --iter_max_iters 20
+# ENVIRONMENT SETUP
+
+cd ~/CPTS440                          # Navigate to project directory
+module load anaconda3                # Load Anaconda module
+source activate sudoku               # Activate conda environment
+
+# RUN TRAINING SCRIPT
+
+srun python3 -u train_sudoku.py \    # Run Python script with unbuffered output (-u for real-time logs)
+    --csv sudoku.csv \               # Path to dataset (CSV with puzzle/solution columns)
+    --nrows 2000000 \               # Number of rows to load (2 million)
+    --epochs 20 \                   # Number of training epochs
+    --lr 0.0005 \                   # Learning rate
+    --batch_size 128 \              # Batch size (kept constant for controlled experiments)
+    --use_masked_loss \             # Use masked loss (focus training on blank cells)
+    --resume \                      # Resume training if checkpoint exists
+    --save_path sudoku_scale_2M.pt \ # File to save/load model checkpoint
+    --constraint_weight 0.0 \       # Disable constraint loss (baseline CNN experiment)
+    --iter_confidence 0.95 \        # Confidence threshold for iterative inference
+    --iter_max_iters 20             # Maximum number of iterative refinement steps
