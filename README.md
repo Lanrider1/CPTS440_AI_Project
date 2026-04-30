@@ -12,10 +12,10 @@ Optionally includes constraint-based regularization
 Uses iterative constrained inference to improve full-board solving
 
 Files
-train_sudoku.py - Main training + evaluation script
-run_sudoku_gpu.sh - Slurm batch script for GPU training
-sudoku.csv - Dataset (puzzle, solution)
-*.out - Example training outputs
+1. train_sudoku.py - Main training + evaluation script
+2. run_sudoku_gpu.sh - Slurm batch script for GPU training
+3. sudoku.csv - Dataset (puzzle, solution)
+4. *.out - Example training outputs
 
 Installation
 1. Load environment
@@ -65,12 +65,11 @@ Training Metrics
 Train Total Loss
 Combined loss used for optimization
 
-Total Loss = Cross Entropy + Constraint Weight × Constraint Loss
-Train CE (Cross Entropy Loss) - Measures prediction error for each cell
-Train Constraint Loss - Penalizes violations of Sudoku rules (row/column/subgrid duplicates)
-Train Cell Accuracy - % of all 81 cells predicted correctly
-Train Blank Accuracy - % of only missing cells predicted correctly
-most important training metric
+1. Total Loss = Cross Entropy + Constraint Weight × Constraint Loss
+2. Train CE (Cross Entropy Loss) - Measures prediction error for each cell
+3. Train Constraint Loss - Penalizes violations of Sudoku rules (row/column/subgrid duplicates)
+4. Train Cell Accuracy - % of all 81 cells predicted correctly
+5. Train Blank Accuracy - % of only missing cells predicted correctly
 
 Validation Metrics
 Same as training, but computed on unseen data
