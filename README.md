@@ -75,19 +75,20 @@ Validation Metrics
 Same as training, but computed on unseen data
 Val Board Accuracy - % of entire Sudoku boards solved perfectly
 
-Test Results
-Standard Test Results
-  Test Total Loss: 1.3337
-  Test CE Loss:    1.3337
-  Test Constraint: 1.6823
-  Test Cell Acc:   69.21%
-  Test Blank Acc:  40.68%
-  Test Board Acc:  0.0000%
+## Test Results
 
-Interpretation
-Test Cell Accuracy (~69%) - model is good at predicting individual digits
-Test Blank Accuracy (~40%) - moderate performance on missing cells
-Test Board Accuracy (0%) - almost no full puzzles solved
+### Standard Test Results
+- **Test Total Loss:** 1.3337  
+- **Test CE Loss:** 1.3337  
+- **Test Constraint:** 1.6823  
+- **Test Cell Acc:** 69.21%  
+- **Test Blank Acc:** 40.68%  
+- **Test Board Acc:** 0.0000%
+
+### Interpretation
+- **Cell Accuracy (~69%)** → model is good at predicting individual digits  
+- **Blank Accuracy (~40%)** → moderate performance on missing cells  
+- **Board Accuracy (0%)** → almost no full puzzles solved  
 
 High cell accuracy ≠ solving Sudoku correctly
 
