@@ -1,4 +1,3 @@
-
 ````markdown
 # CPTS440_AI_Project
 
@@ -14,6 +13,24 @@ The model:
 - Applies masked loss to focus on blank cells  
 - Optionally includes constraint-based regularization  
 - Uses iterative constrained inference to improve full-board solving  
+
+---
+
+## Environment
+
+This project was developed and executed on the **Kamiak High Performance Computing (HPC) cluster** at **Washington State University (Pullman)**.
+
+If you are running this project on Kamiak, refer to the official documentation:
+
+- [Kamiak Quick Start Guide](https://hpc.wsu.edu/users-guide/quick-start-guide/)
+- Cheat Sheets and User Resources (available on the same site)
+- “Welcome to Kamiak” documentation
+
+These resources explain:
+- how to log in
+- how to request compute nodes
+- how to run jobs with `srun` and `sbatch`
+- how GPU resources are allocated
 
 ---
 
@@ -36,11 +53,15 @@ conda create -n sudoku python=3.10 -y
 source activate sudoku
 ````
 
+---
+
 ### 2. Install dependencies
 
 ```bash
 pip install pandas numpy torch torchvision torchaudio
 ```
+
+---
 
 ### 3. Verify GPU (optional)
 
@@ -73,7 +94,7 @@ python3 train_sudoku.py \
 
 ---
 
-### Run on cluster (GPU)
+### Run on Kamiak cluster (GPU)
 
 Submit job:
 
@@ -154,7 +175,7 @@ Test Board Acc:  0.0000%
 * **Blank Accuracy (~40%)** → moderate performance on missing cells
 * **Board Accuracy (0%)** → almost no full puzzles solved
 
-> ⚠️ High cell accuracy does NOT mean the model can solve Sudoku correctly.
+> Note: High cell accuracy does NOT mean the model can solve Sudoku correctly.
 
 ---
 
