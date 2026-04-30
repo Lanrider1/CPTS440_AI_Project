@@ -210,5 +210,3 @@ Instead of predicting all cells at once, the model:
 * **Iter Board Accuracy** → % of boards fully solved
 
 ```
-
----
