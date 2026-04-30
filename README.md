@@ -53,6 +53,7 @@ conda create -n sudoku python=3.10 -y
 source activate sudoku
 
 ````
+---
 ### 2. Install dependencies
 
 ```bash
