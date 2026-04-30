@@ -2,7 +2,8 @@
 # CPTS440_AI_Project
 
 This project implements a Convolutional Neural Network (CNN) to solve Sudoku puzzles.
-It explores how different training techniques and inference strategies affect performance on structured reasoning tasks.
+It explores how different training techniques and inference strategies affect performance
+on structured reasoning tasks.
 
 ---
 
