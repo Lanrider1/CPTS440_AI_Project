@@ -15,7 +15,8 @@
 
 # ENVIRONMENT SETUP
 
-cd ~/CPTS440                          # Navigate to project directory
+cd ~/<project folder>                # Navigate to project directory where .sh and .py files are located
+                                     # Replace with name of your folder (example: cd ~/CPTS440)
 module load anaconda3                # Load Anaconda module
 source activate sudoku               # Activate conda environment
 
