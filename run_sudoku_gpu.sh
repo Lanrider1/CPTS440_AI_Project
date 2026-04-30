@@ -30,9 +30,9 @@ srun python3 -u train_sudoku.py \    # Run Python script with unbuffered output 
     --batch_size 128 \              # Batch size (kept constant for controlled experiments)
     --use_masked_loss \             # Use masked loss (focus training on blank cells)
     --resume \                      # Resume training if checkpoint exists
-    --save_path sudoku_scale_2M.pt \ # File to save/load model checkpoint, 
+    --save_path sudoku_scale_2M.pt \ # File to save/load model checkpoint, if resume enabled
                                     # you'll need to change the file name or increase the number 
                                     # of epochs to continue learning or start over
-    --constraint_weight 0.0 \       # Disable constraint loss (baseline CNN experiment)
+    --constraint_weight 0.0 \       # constraint loss
     --iter_confidence 0.95 \        # Confidence threshold for iterative inference
     --iter_max_iters 20             # Maximum number of iterative refinement steps
