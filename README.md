@@ -41,7 +41,7 @@ These resources explain:
 - `train_sudoku.py` - Main training + evaluation script  
 - `run_sudoku_gpu.sh` - Slurm batch script for GPU training  
 - `sudoku.csv` - Dataset (puzzle, solution) found at https://www.kaggle.com/datasets/rohanrao/sudoku
-- `*.out` - Example training outputs  
+- `sudoku_scale_24900417.out` - Example training outputs  
 
 ---
 ````
