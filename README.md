@@ -1,5 +1,4 @@
 ````
-````
 # CPTS440_AI_Project
 
 This project implements a Convolutional Neural Network (CNN) to solve Sudoku puzzles.
