@@ -35,8 +35,8 @@ These resources explain:
 - how to run jobs with `srun` and `sbatch`
 - how GPU resources are allocated
 
+````
 ---
-
 ## Files
 
 - `train_sudoku.py` - Main training + evaluation script  
@@ -45,7 +45,6 @@ These resources explain:
 - `sudoku_scale_24900417.out` - Example training outputs  
 
 ---
-````
 ## Installation
 
 ### 1. Load environment
