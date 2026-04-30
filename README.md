@@ -1,4 +1,5 @@
 ````markdown
+````
 # CPTS440_AI_Project
 
 This project implements a Convolutional Neural Network (CNN) to solve Sudoku puzzles.
@@ -35,7 +36,6 @@ These resources explain:
 - how to run jobs with `srun` and `sbatch`
 - how GPU resources are allocated
 
-````
 ---
 ## Files
 
