@@ -12,10 +12,10 @@ Optionally includes constraint-based regularization
 Uses iterative constrained inference to improve full-board solving
 
 Files
-train_sudoku.py         # Main training + evaluation script
-run_sudoku_gpu.sh       # Slurm batch script for GPU training
-sudoku.csv              # Dataset (puzzle, solution)
-*.out                   # Example training outputs
+train_sudoku.py - Main training + evaluation script
+run_sudoku_gpu.sh - Slurm batch script for GPU training
+sudoku.csv - Dataset (puzzle, solution)
+*.out - Example training outputs
 
 Installation
 1. Load environment
@@ -31,7 +31,7 @@ Expected:
 
 True
 Running the Code
-Run locally using .sh file (CPU or GPU if available)
+Run locally using (CPU or GPU if available)
 python3 train_sudoku.py \
   --csv sudoku.csv \
   --nrows 10000 \
