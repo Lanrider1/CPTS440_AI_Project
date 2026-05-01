@@ -116,7 +116,7 @@ example: while [ ! -f sudoku_BS_24919196.out ]; do sleep 2; done; tail -f sudoku
 ```
 > Another way to debug your project status is:
 ```
-squeue - u username
+squeue -u username
 scontrol show job <JOBID>
 ```
 
