@@ -1,0 +1,88 @@
+Loading CSV...
+Loaded 2000000 rows
+Columns: ['puzzle', 'solution']
+Using device: cuda
+Loading checkpoint from sudoku_scale_2M.pt...
+Resuming from epoch 9/20
+Epoch 10/20
+  Train Total Loss: 0.9581 | Train CE: 0.9581 | Train Constraint: 3.0136
+  Train Cell Acc: 76.13% | Train Blank Acc: 54.05%
+  Val Total Loss: 0.9161 | Val CE: 0.9161 | Val Constraint: 3.1406
+  Val Cell Acc: 77.40% | Val Blank Acc: 56.49% | Val Board Acc: 0.1035%
+  Saved best model to sudoku_scale_2M.pt
+Epoch 11/20
+  Train Total Loss: 0.9564 | Train CE: 0.9564 | Train Constraint: 3.0292
+  Train Cell Acc: 76.17% | Train Blank Acc: 54.13%
+  Val Total Loss: 0.9155 | Val CE: 0.9155 | Val Constraint: 3.1403
+  Val Cell Acc: 77.39% | Val Blank Acc: 56.48% | Val Board Acc: 0.1035%
+  Saved best model to sudoku_scale_2M.pt
+Epoch 12/20
+  Train Total Loss: 0.9552 | Train CE: 0.9552 | Train Constraint: 3.0458
+  Train Cell Acc: 76.20% | Train Blank Acc: 54.19%
+  Val Total Loss: 0.9143 | Val CE: 0.9143 | Val Constraint: 3.1511
+  Val Cell Acc: 77.42% | Val Blank Acc: 56.54% | Val Board Acc: 0.1020%
+  Saved best model to sudoku_scale_2M.pt
+Epoch 13/20
+  Train Total Loss: 0.9541 | Train CE: 0.9541 | Train Constraint: 3.0580
+  Train Cell Acc: 76.22% | Train Blank Acc: 54.23%
+  Val Total Loss: 0.9133 | Val CE: 0.9133 | Val Constraint: 3.1530
+  Val Cell Acc: 77.44% | Val Blank Acc: 56.56% | Val Board Acc: 0.1035%
+  Saved best model to sudoku_scale_2M.pt
+Epoch 14/20
+  Train Total Loss: 0.9529 | Train CE: 0.9529 | Train Constraint: 3.0700
+  Train Cell Acc: 76.25% | Train Blank Acc: 54.28%
+  Val Total Loss: 0.9132 | Val CE: 0.9132 | Val Constraint: 3.1525
+  Val Cell Acc: 77.44% | Val Blank Acc: 56.57% | Val Board Acc: 0.1040%
+  Saved best model to sudoku_scale_2M.pt
+Epoch 15/20
+  Train Total Loss: 0.9521 | Train CE: 0.9521 | Train Constraint: 3.0810
+  Train Cell Acc: 76.27% | Train Blank Acc: 54.32%
+  Val Total Loss: 0.9124 | Val CE: 0.9124 | Val Constraint: 3.1557
+  Val Cell Acc: 77.46% | Val Blank Acc: 56.60% | Val Board Acc: 0.1050%
+  Saved best model to sudoku_scale_2M.pt
+Epoch 16/20
+  Train Total Loss: 0.9512 | Train CE: 0.9512 | Train Constraint: 3.0913
+  Train Cell Acc: 76.28% | Train Blank Acc: 54.35%
+  Val Total Loss: 0.9112 | Val CE: 0.9112 | Val Constraint: 3.1526
+  Val Cell Acc: 77.47% | Val Blank Acc: 56.63% | Val Board Acc: 0.1020%
+  Saved best model to sudoku_scale_2M.pt
+Epoch 17/20
+  Train Total Loss: 0.9504 | Train CE: 0.9504 | Train Constraint: 3.0996
+  Train Cell Acc: 76.30% | Train Blank Acc: 54.39%
+  Val Total Loss: 0.9109 | Val CE: 0.9109 | Val Constraint: 3.1502
+  Val Cell Acc: 77.47% | Val Blank Acc: 56.62% | Val Board Acc: 0.1060%
+  Saved best model to sudoku_scale_2M.pt
+Epoch 18/20
+  Train Total Loss: 0.9495 | Train CE: 0.9495 | Train Constraint: 3.1051
+  Train Cell Acc: 76.33% | Train Blank Acc: 54.44%
+  Val Total Loss: 0.9105 | Val CE: 0.9105 | Val Constraint: 3.1558
+  Val Cell Acc: 77.49% | Val Blank Acc: 56.67% | Val Board Acc: 0.1070%
+  Saved best model to sudoku_scale_2M.pt
+Epoch 19/20
+  Train Total Loss: 0.9486 | Train CE: 0.9486 | Train Constraint: 3.1093
+  Train Cell Acc: 76.35% | Train Blank Acc: 54.48%
+  Val Total Loss: 0.9090 | Val CE: 0.9090 | Val Constraint: 3.1575
+  Val Cell Acc: 77.50% | Val Blank Acc: 56.69% | Val Board Acc: 0.1145%
+  Saved best model to sudoku_scale_2M.pt
+Epoch 20/20
+  Train Total Loss: 0.9477 | Train CE: 0.9477 | Train Constraint: 3.1155
+  Train Cell Acc: 76.38% | Train Blank Acc: 54.54%
+  Val Total Loss: 0.9092 | Val CE: 0.9092 | Val Constraint: 3.1497
+  Val Cell Acc: 77.51% | Val Blank Acc: 56.71% | Val Board Acc: 0.1170%
+Loading best checkpoint from sudoku_scale_2M.pt for testing...
+
+Standard Test Results
+  Test Total Loss: 0.9099
+  Test CE Loss:    0.9099
+  Test Constraint: 3.1499
+  Test Cell Acc:   77.50%
+  Test Blank Acc:  56.69%
+  Test Board Acc:  0.1030%
+
+Running iterative constrained inference on test set...
+
+Iterative Test Results
+  Iter Cell Acc:   62.16%
+  Iter Blank Acc:  30.17%
+  Iter Board Acc:  1.0795%
+  Iter Settings: confidence_threshold=0.95, max_iters=20

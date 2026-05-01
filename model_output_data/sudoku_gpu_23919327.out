@@ -1,0 +1,141 @@
+Loading CSV...
+Loaded 100000 rows
+Columns: ['puzzle', 'solution']
+Using device: cuda
+Epoch 1/20
+  Train Total Loss: 1.6919 | Train CE: 1.6919 | Train Constraint: 0.9087
+  Train Cell Acc: 63.90% | Train Blank Acc: 30.54%
+  Val Total Loss: 1.3628 | Val CE: 1.3628 | Val Constraint: 1.2886
+  Val Cell Acc: 69.10% | Val Blank Acc: 40.57% | Val Board Acc: 0.0000%
+  Saved best model to sudoku_iterative_baseline.pt
+Epoch 2/20
+  Train Total Loss: 1.3991 | Train CE: 1.3991 | Train Constraint: 1.5005
+  Train Cell Acc: 68.19% | Train Blank Acc: 38.80%
+  Val Total Loss: 1.2374 | Val CE: 1.2374 | Val Constraint: 1.7651
+  Val Cell Acc: 70.55% | Val Blank Acc: 43.36% | Val Board Acc: 0.0000%
+  Saved best model to sudoku_iterative_baseline.pt
+Epoch 3/20
+  Train Total Loss: 1.3030 | Train CE: 1.3030 | Train Constraint: 1.8165
+  Train Cell Acc: 69.46% | Train Blank Acc: 41.24%
+  Val Total Loss: 1.1672 | Val CE: 1.1672 | Val Constraint: 2.0745
+  Val Cell Acc: 71.53% | Val Blank Acc: 45.24% | Val Board Acc: 0.0000%
+  Saved best model to sudoku_iterative_baseline.pt
+Epoch 4/20
+  Train Total Loss: 1.2421 | Train CE: 1.2421 | Train Constraint: 2.0581
+  Train Cell Acc: 70.38% | Train Blank Acc: 43.00%
+  Val Total Loss: 1.1122 | Val CE: 1.1122 | Val Constraint: 2.3217
+  Val Cell Acc: 72.54% | Val Blank Acc: 47.18% | Val Board Acc: 0.0000%
+  Saved best model to sudoku_iterative_baseline.pt
+Epoch 5/20
+  Train Total Loss: 1.1962 | Train CE: 1.1962 | Train Constraint: 2.2275
+  Train Cell Acc: 71.14% | Train Blank Acc: 44.48%
+  Val Total Loss: 1.0698 | Val CE: 1.0698 | Val Constraint: 2.5042
+  Val Cell Acc: 73.36% | Val Blank Acc: 48.75% | Val Board Acc: 0.0000%
+  Saved best model to sudoku_iterative_baseline.pt
+Epoch 6/20
+  Train Total Loss: 1.1600 | Train CE: 1.1600 | Train Constraint: 2.3432
+  Train Cell Acc: 71.77% | Train Blank Acc: 45.68%
+  Val Total Loss: 1.0437 | Val CE: 1.0437 | Val Constraint: 2.5984
+  Val Cell Acc: 73.87% | Val Blank Acc: 49.74% | Val Board Acc: 0.0099%
+  Saved best model to sudoku_iterative_baseline.pt
+Epoch 7/20
+  Train Total Loss: 1.1319 | Train CE: 1.1319 | Train Constraint: 2.4178
+  Train Cell Acc: 72.25% | Train Blank Acc: 46.61%
+  Val Total Loss: 1.0223 | Val CE: 1.0223 | Val Constraint: 2.6871
+  Val Cell Acc: 74.24% | Val Blank Acc: 50.44% | Val Board Acc: 0.0000%
+  Saved best model to sudoku_iterative_baseline.pt
+Epoch 8/20
+  Train Total Loss: 1.1108 | Train CE: 1.1108 | Train Constraint: 2.4683
+  Train Cell Acc: 72.61% | Train Blank Acc: 47.31%
+  Val Total Loss: 1.0091 | Val CE: 1.0091 | Val Constraint: 2.7232
+  Val Cell Acc: 74.54% | Val Blank Acc: 51.03% | Val Board Acc: 0.0198%
+  Saved best model to sudoku_iterative_baseline.pt
+Epoch 9/20
+  Train Total Loss: 1.0937 | Train CE: 1.0937 | Train Constraint: 2.5041
+  Train Cell Acc: 72.93% | Train Blank Acc: 47.92%
+  Val Total Loss: 0.9981 | Val CE: 0.9981 | Val Constraint: 2.7678
+  Val Cell Acc: 74.82% | Val Blank Acc: 51.57% | Val Board Acc: 0.0099%
+  Saved best model to sudoku_iterative_baseline.pt
+Epoch 10/20
+  Train Total Loss: 1.0807 | Train CE: 1.0807 | Train Constraint: 2.5262
+  Train Cell Acc: 73.16% | Train Blank Acc: 48.37%
+  Val Total Loss: 0.9913 | Val CE: 0.9913 | Val Constraint: 2.7789
+  Val Cell Acc: 75.00% | Val Blank Acc: 51.91% | Val Board Acc: 0.0198%
+  Saved best model to sudoku_iterative_baseline.pt
+Epoch 11/20
+  Train Total Loss: 1.0703 | Train CE: 1.0703 | Train Constraint: 2.5487
+  Train Cell Acc: 73.38% | Train Blank Acc: 48.78%
+  Val Total Loss: 0.9851 | Val CE: 0.9851 | Val Constraint: 2.7899
+  Val Cell Acc: 75.21% | Val Blank Acc: 52.33% | Val Board Acc: 0.0198%
+  Saved best model to sudoku_iterative_baseline.pt
+Epoch 12/20
+  Train Total Loss: 1.0618 | Train CE: 1.0618 | Train Constraint: 2.5675
+  Train Cell Acc: 73.55% | Train Blank Acc: 49.11%
+  Val Total Loss: 0.9794 | Val CE: 0.9794 | Val Constraint: 2.8388
+  Val Cell Acc: 75.25% | Val Blank Acc: 52.39% | Val Board Acc: 0.0297%
+  Saved best model to sudoku_iterative_baseline.pt
+Epoch 13/20
+  Train Total Loss: 1.0548 | Train CE: 1.0548 | Train Constraint: 2.5770
+  Train Cell Acc: 73.71% | Train Blank Acc: 49.41%
+  Val Total Loss: 0.9770 | Val CE: 0.9770 | Val Constraint: 2.7828
+  Val Cell Acc: 75.38% | Val Blank Acc: 52.65% | Val Board Acc: 0.0000%
+  Saved best model to sudoku_iterative_baseline.pt
+Epoch 14/20
+  Train Total Loss: 1.0490 | Train CE: 1.0490 | Train Constraint: 2.5851
+  Train Cell Acc: 73.84% | Train Blank Acc: 49.66%
+  Val Total Loss: 0.9724 | Val CE: 0.9724 | Val Constraint: 2.8088
+  Val Cell Acc: 75.50% | Val Blank Acc: 52.88% | Val Board Acc: 0.0297%
+  Saved best model to sudoku_iterative_baseline.pt
+Epoch 15/20
+  Train Total Loss: 1.0432 | Train CE: 1.0432 | Train Constraint: 2.5928
+  Train Cell Acc: 73.99% | Train Blank Acc: 49.95%
+  Val Total Loss: 0.9687 | Val CE: 0.9687 | Val Constraint: 2.8136
+  Val Cell Acc: 75.64% | Val Blank Acc: 53.15% | Val Board Acc: 0.0198%
+  Saved best model to sudoku_iterative_baseline.pt
+Epoch 16/20
+  Train Total Loss: 1.0388 | Train CE: 1.0388 | Train Constraint: 2.5943
+  Train Cell Acc: 74.08% | Train Blank Acc: 50.14%
+  Val Total Loss: 0.9674 | Val CE: 0.9674 | Val Constraint: 2.7802
+  Val Cell Acc: 75.72% | Val Blank Acc: 53.29% | Val Board Acc: 0.0198%
+  Saved best model to sudoku_iterative_baseline.pt
+Epoch 17/20
+  Train Total Loss: 1.0347 | Train CE: 1.0347 | Train Constraint: 2.5931
+  Train Cell Acc: 74.19% | Train Blank Acc: 50.33%
+  Val Total Loss: 0.9656 | Val CE: 0.9656 | Val Constraint: 2.8013
+  Val Cell Acc: 75.78% | Val Blank Acc: 53.41% | Val Board Acc: 0.0198%
+  Saved best model to sudoku_iterative_baseline.pt
+Epoch 18/20
+  Train Total Loss: 1.0308 | Train CE: 1.0308 | Train Constraint: 2.5957
+  Train Cell Acc: 74.29% | Train Blank Acc: 50.53%
+  Val Total Loss: 0.9626 | Val CE: 0.9626 | Val Constraint: 2.8050
+  Val Cell Acc: 75.88% | Val Blank Acc: 53.60% | Val Board Acc: 0.0297%
+  Saved best model to sudoku_iterative_baseline.pt
+Epoch 19/20
+  Train Total Loss: 1.0279 | Train CE: 1.0279 | Train Constraint: 2.6004
+  Train Cell Acc: 74.35% | Train Blank Acc: 50.65%
+  Val Total Loss: 0.9613 | Val CE: 0.9613 | Val Constraint: 2.8039
+  Val Cell Acc: 75.97% | Val Blank Acc: 53.78% | Val Board Acc: 0.0396%
+  Saved best model to sudoku_iterative_baseline.pt
+Epoch 20/20
+  Train Total Loss: 1.0243 | Train CE: 1.0243 | Train Constraint: 2.6018
+  Train Cell Acc: 74.44% | Train Blank Acc: 50.82%
+  Val Total Loss: 0.9590 | Val CE: 0.9590 | Val Constraint: 2.8250
+  Val Cell Acc: 76.04% | Val Blank Acc: 53.91% | Val Board Acc: 0.0297%
+  Saved best model to sudoku_iterative_baseline.pt
+Loading best checkpoint from sudoku_iterative_baseline.pt for testing...
+
+Standard Test Results
+  Test Total Loss: 0.9583
+  Test CE Loss:    0.9583
+  Test Constraint: 2.8310
+  Test Cell Acc:   76.08%
+  Test Blank Acc:  53.92%
+  Test Board Acc:  0.0494%
+
+Running iterative constrained inference on test set...
+
+Iterative Test Results
+  Iter Cell Acc:   60.86%
+  Iter Blank Acc:  27.62%
+  Iter Board Acc:  1.0500%
+  Iter Settings: confidence_threshold=0.95, max_iters=20

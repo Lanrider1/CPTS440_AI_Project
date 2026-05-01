@@ -1,0 +1,15 @@
+Loading CSV...
+Loaded 100000 rows
+Columns: ['puzzle', 'solution']
+Using device: cuda
+Loading checkpoint from sudoku_constraint_checkpoint.pt...
+Resuming from epoch 20/20
+Loading best checkpoint from sudoku_constraint_checkpoint.pt for testing...
+
+Test Results
+  Test Total Loss: 1.2667
+  Test CE Loss:    0.9547
+  Test Constraint: 3.1201
+  Test Cell Acc:   76.29%
+  Test Blank Acc:  54.43%
+  Test Board Acc:  0.0593%

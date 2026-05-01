@@ -1,0 +1,90 @@
+Loading CSV...
+Loaded 1000000 rows
+Columns: ['puzzle', 'solution']
+Using device: cuda
+Epoch 1/20
+  Train Loss: 1.2369 | Train Cell Acc: 70.54% | Train Blank Acc: 43.30%
+  Val Loss:   0.9848 | Val Cell Acc: 75.15% | Val Blank Acc: 52.16% | Val Board Acc: 0.0450%
+  Saved best model to sudoku_model.pt
+Epoch 2/20
+  Train Loss: 1.0413 | Train Cell Acc: 73.88% | Train Blank Acc: 49.72%
+  Val Loss:   0.9558 | Val Cell Acc: 76.15% | Val Blank Acc: 54.09% | Val Board Acc: 0.0529%
+  Saved best model to sudoku_model.pt
+Epoch 3/20
+  Train Loss: 1.0119 | Train Cell Acc: 74.62% | Train Blank Acc: 51.16%
+  Val Loss:   0.9473 | Val Cell Acc: 76.48% | Val Blank Acc: 54.73% | Val Board Acc: 0.0629%
+  Saved best model to sudoku_model.pt
+Epoch 4/20
+  Train Loss: 0.9987 | Train Cell Acc: 75.00% | Train Blank Acc: 51.87%
+  Val Loss:   0.9411 | Val Cell Acc: 76.73% | Val Blank Acc: 55.19% | Val Board Acc: 0.0639%
+  Saved best model to sudoku_model.pt
+Epoch 5/20
+  Train Loss: 0.9906 | Train Cell Acc: 75.23% | Train Blank Acc: 52.33%
+  Val Loss:   0.9372 | Val Cell Acc: 76.85% | Val Blank Acc: 55.42% | Val Board Acc: 0.0649%
+  Saved best model to sudoku_model.pt
+Epoch 6/20
+  Train Loss: 0.9846 | Train Cell Acc: 75.41% | Train Blank Acc: 52.68%
+  Val Loss:   0.9337 | Val Cell Acc: 76.98% | Val Blank Acc: 55.68% | Val Board Acc: 0.0789%
+  Saved best model to sudoku_model.pt
+Epoch 7/20
+  Train Loss: 0.9805 | Train Cell Acc: 75.54% | Train Blank Acc: 52.92%
+  Val Loss:   0.9316 | Val Cell Acc: 77.03% | Val Blank Acc: 55.78% | Val Board Acc: 0.0829%
+  Saved best model to sudoku_model.pt
+Epoch 8/20
+  Train Loss: 0.9775 | Train Cell Acc: 75.62% | Train Blank Acc: 53.07%
+  Val Loss:   0.9304 | Val Cell Acc: 77.07% | Val Blank Acc: 55.86% | Val Board Acc: 0.0799%
+  Saved best model to sudoku_model.pt
+Epoch 9/20
+  Train Loss: 0.9754 | Train Cell Acc: 75.67% | Train Blank Acc: 53.18%
+  Val Loss:   0.9289 | Val Cell Acc: 77.11% | Val Blank Acc: 55.94% | Val Board Acc: 0.0909%
+  Saved best model to sudoku_model.pt
+Epoch 10/20
+  Train Loss: 0.9736 | Train Cell Acc: 75.73% | Train Blank Acc: 53.28%
+  Val Loss:   0.9283 | Val Cell Acc: 77.13% | Val Blank Acc: 55.98% | Val Board Acc: 0.0879%
+  Saved best model to sudoku_model.pt
+Epoch 11/20
+  Train Loss: 0.9720 | Train Cell Acc: 75.77% | Train Blank Acc: 53.37%
+  Val Loss:   0.9273 | Val Cell Acc: 77.18% | Val Blank Acc: 56.06% | Val Board Acc: 0.0879%
+  Saved best model to sudoku_model.pt
+Epoch 12/20
+  Train Loss: 0.9705 | Train Cell Acc: 75.82% | Train Blank Acc: 53.45%
+  Val Loss:   0.9261 | Val Cell Acc: 77.21% | Val Blank Acc: 56.12% | Val Board Acc: 0.0929%
+  Saved best model to sudoku_model.pt
+Epoch 13/20
+  Train Loss: 0.9690 | Train Cell Acc: 75.86% | Train Blank Acc: 53.54%
+  Val Loss:   0.9253 | Val Cell Acc: 77.22% | Val Blank Acc: 56.15% | Val Board Acc: 0.0959%
+  Saved best model to sudoku_model.pt
+Epoch 14/20
+  Train Loss: 0.9677 | Train Cell Acc: 75.89% | Train Blank Acc: 53.60%
+  Val Loss:   0.9247 | Val Cell Acc: 77.23% | Val Blank Acc: 56.16% | Val Board Acc: 0.0949%
+  Saved best model to sudoku_model.pt
+Epoch 15/20
+  Train Loss: 0.9664 | Train Cell Acc: 75.94% | Train Blank Acc: 53.69%
+  Val Loss:   0.9233 | Val Cell Acc: 77.27% | Val Blank Acc: 56.24% | Val Board Acc: 0.0879%
+  Saved best model to sudoku_model.pt
+Epoch 16/20
+  Train Loss: 0.9651 | Train Cell Acc: 75.98% | Train Blank Acc: 53.76%
+  Val Loss:   0.9228 | Val Cell Acc: 77.30% | Val Blank Acc: 56.29% | Val Board Acc: 0.0899%
+  Saved best model to sudoku_model.pt
+Epoch 17/20
+  Train Loss: 0.9641 | Train Cell Acc: 76.01% | Train Blank Acc: 53.82%
+  Val Loss:   0.9227 | Val Cell Acc: 77.29% | Val Blank Acc: 56.28% | Val Board Acc: 0.0899%
+  Saved best model to sudoku_model.pt
+Epoch 18/20
+  Train Loss: 0.9634 | Train Cell Acc: 76.02% | Train Blank Acc: 53.85%
+  Val Loss:   0.9219 | Val Cell Acc: 77.32% | Val Blank Acc: 56.34% | Val Board Acc: 0.0899%
+  Saved best model to sudoku_model.pt
+Epoch 19/20
+  Train Loss: 0.9625 | Train Cell Acc: 76.04% | Train Blank Acc: 53.89%
+  Val Loss:   0.9210 | Val Cell Acc: 77.33% | Val Blank Acc: 56.36% | Val Board Acc: 0.0909%
+  Saved best model to sudoku_model.pt
+Epoch 20/20
+  Train Loss: 0.9617 | Train Cell Acc: 76.06% | Train Blank Acc: 53.93%
+  Val Loss:   0.9208 | Val Cell Acc: 77.32% | Val Blank Acc: 56.33% | Val Board Acc: 0.0959%
+  Saved best model to sudoku_model.pt
+
+Test Results
+  Test Loss:      0.9210
+  Test Cell Acc:  77.31%
+  Test Blank Acc: 56.34%
+  Test Board Acc: 0.0949%

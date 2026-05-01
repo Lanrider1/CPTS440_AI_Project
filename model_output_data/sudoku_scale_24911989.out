@@ -1,0 +1,53 @@
+Loading CSV...
+Loaded 6000000 rows
+Columns: ['puzzle', 'solution']
+Using device: cuda
+Loading checkpoint from sudoku_scale_6M.pt...
+Resuming from epoch 14/20
+Epoch 15/20
+  Train Total Loss: 0.9434 | Train CE: 0.9434 | Train Constraint: 3.1504
+  Train Cell Acc: 76.51% | Train Blank Acc: 54.78%
+  Val Total Loss: 0.9076 | Val CE: 0.9076 | Val Constraint: 3.1310
+  Val Cell Acc: 77.63% | Val Blank Acc: 56.94% | Val Board Acc: 0.1097%
+  Saved best model to sudoku_scale_6M.pt
+Epoch 16/20
+  Train Total Loss: 0.9430 | Train CE: 0.9430 | Train Constraint: 3.1505
+  Train Cell Acc: 76.52% | Train Blank Acc: 54.81%
+  Val Total Loss: 0.9074 | Val CE: 0.9074 | Val Constraint: 3.1247
+  Val Cell Acc: 77.64% | Val Blank Acc: 56.96% | Val Board Acc: 0.1130%
+  Saved best model to sudoku_scale_6M.pt
+Epoch 17/20
+  Train Total Loss: 0.9426 | Train CE: 0.9426 | Train Constraint: 3.1509
+  Train Cell Acc: 76.53% | Train Blank Acc: 54.82%
+  Val Total Loss: 0.9068 | Val CE: 0.9068 | Val Constraint: 3.1252
+  Val Cell Acc: 77.66% | Val Blank Acc: 57.00% | Val Board Acc: 0.1125%
+  Saved best model to sudoku_scale_6M.pt
+Epoch 18/20
+  Train Total Loss: 0.9422 | Train CE: 0.9422 | Train Constraint: 3.1513
+  Train Cell Acc: 76.54% | Train Blank Acc: 54.85%
+  Val Total Loss: 0.9065 | Val CE: 0.9065 | Val Constraint: 3.1295
+  Val Cell Acc: 77.64% | Val Blank Acc: 56.97% | Val Board Acc: 0.1133%
+  Saved best model to sudoku_scale_6M.pt
+Epoch 19/20
+  Train Total Loss: 0.9419 | Train CE: 0.9419 | Train Constraint: 3.1516
+  Train Cell Acc: 76.55% | Train Blank Acc: 54.86%
+  Val Total Loss: 0.9064 | Val CE: 0.9064 | Val Constraint: 3.1294
+  Val Cell Acc: 77.66% | Val Blank Acc: 57.01% | Val Board Acc: 0.1115%
+  Saved best model to sudoku_scale_6M.pt
+Epoch 20/20
+  Train Total Loss: 0.9416 | Train CE: 0.9416 | Train Constraint: 3.1512
+  Train Cell Acc: 76.55% | Train Blank Acc: 54.87%
+  Val Total Loss: 0.9060 | Val CE: 0.9060 | Val Constraint: 3.1227
+  Val Cell Acc: 77.66% | Val Blank Acc: 57.01% | Val Board Acc: 0.1102%
+  Saved best model to sudoku_scale_6M.pt
+Loading best checkpoint from sudoku_scale_6M.pt for testing...
+
+Standard Test Results
+  Test Total Loss: 0.9059
+  Test CE Loss:    0.9059
+  Test Constraint: 3.1231
+  Test Cell Acc:   77.67%
+  Test Blank Acc:  57.02%
+  Test Board Acc:  0.1012%
+
+Running iterative constrained inference on test set...

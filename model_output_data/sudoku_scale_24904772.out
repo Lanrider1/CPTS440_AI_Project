@@ -1,0 +1,17 @@
+Loading CSV...
+Loaded 4000000 rows
+Columns: ['puzzle', 'solution']
+Using device: cuda
+Loading checkpoint from sudoku_scale_4M.pt...
+Resuming from epoch 20/20
+Loading best checkpoint from sudoku_scale_4M.pt for testing...
+
+Standard Test Results
+  Test Total Loss: 0.9043
+  Test CE Loss:    0.9043
+  Test Constraint: 3.1181
+  Test Cell Acc:   77.69%
+  Test Blank Acc:  57.05%
+  Test Board Acc:  0.1130%
+
+Running iterative constrained inference on test set...
