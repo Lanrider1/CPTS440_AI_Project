@@ -107,8 +107,8 @@ Watch output:
 tail -f <JOBNAME>_<JOBID>.out
 example : tail - f sudoku_scale_24900417.out
 ```
-> Note: when using gpu's sometimes it can take a while for one to be available,
-> when that happens use
+> Note: when using gpu's on Kamiak sometimes it can take a while for one to be available,
+> when that happens use:
 ```bash
 while [ ! -f <JOBNAME>_<JOBID>.out ]; do sleep 2; done; tail -f <JOBNAME>_<JOBID>.out
 example: while [ ! -f sudoku_BS_24919196.out ]; do sleep 2; done; tail -f sudoku_BS_24919196.out
