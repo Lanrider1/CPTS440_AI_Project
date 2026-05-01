@@ -114,6 +114,11 @@ while [ ! -f <JOBNAME>_<JOBID>.out ]; do sleep 2; done; tail -f <JOBNAME>_<JOBID
 example: while [ ! -f sudoku_BS_24919196.out ]; do sleep 2; done; tail -f sudoku_BS_24919196.out
 
 ```
+> Another way to debug your project status is:
+```
+squeue - u username
+scontrol show job <JOBID>
+```
 
 ---
 
