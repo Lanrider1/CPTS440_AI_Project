@@ -104,7 +104,7 @@ sbatch run_sudoku_gpu.sh
 Watch output:
 
 ```bash
-tail -f <SAVEPATH_NAME>_<JOBID>.out
+tail -f <JOBNAME>_<JOBID>.out
 example : tail - f sudoku_scale_24900417.out
 ```
 
